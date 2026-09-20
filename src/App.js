@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo11 from "./img/logo.svg";
+// import logo11 from "./img/logo.svg";
 import {
   Container,
   Nav,
@@ -24,7 +24,7 @@ import {
   FaUserTie,
   FaUserFriends,
 } from "react-icons/fa";
-import logo_1 from "./img/logo.svg";
+import logo_1 from "./img/logo.png";
 import "./App.css";
 function App() {
   return (
@@ -37,12 +37,12 @@ function App() {
                 {" "}
                 <HiOutlineEnvelope />
               </p>
-              <p>info@cdmi.in </p>
+              <p> </p>
             </div>
 
             <div className="vc_1 d-flex  align-items-baseline vv">
               <p>
-                {" "}
+                {""}
                 <FaCertificate />
               </p>
               <p> Verify Certificate</p>
@@ -81,7 +81,7 @@ function App() {
           <Container className="lg_11">
             <Navbar.Brand href="#home">
               <div className="logo_img">
-                <img src={logo11}></img>
+                <img src={logo_1}></img>
               </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
