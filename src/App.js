@@ -24,7 +24,6 @@ import {
   FaUserTie,
   FaUserFriends,
 } from "react-icons/fa";
-// import logo_1 from "./img/logo.png";
 import "./App.css";
 function App() {
   return (
@@ -80,9 +79,7 @@ function App() {
         <Navbar expand="lg">
           <Container className="lg_11">
             <Navbar.Brand href="#home">
-              // <div className="logo_img">
-              //   <img src={logo_1}></img>
-              // </div>
+              
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -631,13 +628,6 @@ function App() {
 
 
           </div>
-
-
-    x
-
-
-
-
     </>
   );
 }
